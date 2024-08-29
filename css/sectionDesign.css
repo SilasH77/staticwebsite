@@ -17,7 +17,7 @@
 #sectionListHeader{  
   display:table-cell;
   text-align: center;
-  padding: 2vh 4vw 2vh 4vw; 
+  padding: 2vh 8vw 2vh 8vw; 
 
   font-family: "Adesso-Light", monospace;
   font-size: clamp(1rem, 1vw, 1rem); 
