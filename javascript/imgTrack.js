@@ -14,11 +14,11 @@ window.onmousemove = e => {
     const mouseDelta = parseFloat(track.dataset.mouseDownAt) - e.clientX,
             maxDelta = window.innerWidth / 2;
 
-    const percentage = (mouseDelta / maxDelta) * -100,
+    const percentage = (mouseDelta / maxDelta) * -70,
         nextPercentage = 
             Math.max(
             Math.min(
-                (parseFloat(track.dataset.prevPercentage) + percentage),0),-100);
+                (parseFloat(track.dataset.prevPercentage) + percentage),0),-70);
   
     track.dataset.percentage = nextPercentage;
     
@@ -30,7 +30,7 @@ window.onmousemove = e => {
     
     for(const image of track.getElementsByClassName("image")) {
         image.animate({
-        objectPosition: `${100 + nextPercentage}% center`
+        objectPosition: `${70 + nextPercentage}% center`
         }, { duration: 1200, fill: "forwards" });
     }
 }
