@@ -1,0 +1,35 @@
+#sectionHeader{
+  padding-top: 50px;
+  text-align:center;
+  top:73%;
+  width:100%;
+  
+  margin:auto; 
+  position: relative;
+   
+  font-family: "Tungsten-Bold", monospace;
+  font-size: clamp(5rem, 5vw, 5rem); 
+
+  color: #45a29e;
+}
+
+#sectionListHeader{  
+  display:table-cell;
+  text-align: center;
+  padding: 2vh 4vw 2vh 4vw; 
+
+  font-family: "Adesso-Light", monospace;
+  font-size: clamp(1rem, 1vw, 1rem); 
+
+  color: #e1fffd;
+  padding-bottom: 25px;
+}
+
+
+#sectionListText{
+  padding-top: 2vh;
+  font-family: "Adesso-Light", monospace;
+  font-size: clamp(1rem, 1vw, 1rem); 
+  color: #C5C6C7;
+}
+

@@ -1,0 +1,62 @@
+@import url(https://db.onlinewebfonts.com/c/561f38b1f4570de0fb8a39d691ab058c?family=Tungsten-Bold);
+
+/* ------------------------------------------------------------------------------HEADER SECTION*/
+
+/* Style the header with a grey background and some padding */
+.header {
+  z-index: 999;
+  overflow: hidden;
+  background-color: #1F2833;
+ 
+  width: 100%;
+  position: fixed;
+
+  font-family: "Tungsten-Bold", monospace;
+  font-size: clamp(2rem, 3vw, 3rem);
+  color: #66FCF1;
+
+  padding: 2vh 0vw 2vh 0vw; 
+  text-decoration: none;
+}
+
+/* Style the header links */
+.header button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+
+  float: left;
+  font-size: 18px; 
+
+  font-family: "Tungsten-Bold", monospace;
+  font-size: clamp(2rem, 3vw, 3rem);
+  color: #66FCF1;
+  }
+
+.header button:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Style the active/current link*/
+.header-right button.active {
+
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Change the background color on mouse-over */
+.header-right button:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+ 
+

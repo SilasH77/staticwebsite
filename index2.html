@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/main.css"/>
+        <link rel="stylesheet" href="css/sectionDesign.css"/>
+        <link rel="stylesheet" href="css/imageTrack.css"/>
+        <link rel="stylesheet" href="css/header.css"/>        
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+
+    <body>
+
+        <!-- banner up top -->
+        <div class="header">
+
+            <a data-value="silasHammond.exe">silasHammond.exe</a>
+            <div class="header-right">
+                <button id="button2" data-value="About">About</button>
+                <button id="button" data-value="Experience">Experience</button>
+                <button id="button3" data-value="Skills">Skills</button>
+            </div>
+        </div>
+
+
+        <div id="image-track" data-mouse-down-at="0" data-prev-percentage="0">
+            <img class="image" src="https://images.unsplash.com/photo-1524781289445-ddf8f5695861?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" draggable="false" />
+            <img class="image" src="https://images.unsplash.com/photo-1610194352361-4c81a6a8967e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80" draggable="false" />
+            <img class="image" src="https://images.unsplash.com/photo-1618202133208-2907bebba9e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" draggable="false" />
+            <img class="image" src="https://images.unsplash.com/photo-1495805442109-bf1cf975750b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" draggable="false" />
+            <img class="image" src="https://images.unsplash.com/photo-1548021682-1720ed403a5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" draggable="false" />
+            <img class="image" src="https://images.unsplash.com/photo-1496753480864-3e588e0269b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2134&q=80" draggable="false" />
+            <img class="image" src="https://images.unsplash.com/photo-1613346945084-35cccc812dd5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1759&q=80" draggable="false" />
+            <img class="image" src="https://images.unsplash.com/photo-1516681100942-77d8e7f9dd97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" draggable="false" />
+
+        </div>
+
+        <div id="sectionHeader" class="aboutMe"> About Me </div>
+        <div id="textAbout"> I graduated in May from Kennesaw State University with my Bachelor's in Computer Science. 
+            During my time at school, I gained a year of experience working in my field doing primarily database work with Oglethorpe Power Corporation. 
+            Outside of this, I have worked on developing several large projects such as a nutrition app, a client/server TCP network, and a personal Spotify API based project. 
+            Additionally, I've worked two years through the summers at Winshape Camps, which has given me a great deal of experience with teamwork and conflict management. 
+            I excel most when able to work with a focused and collaborative group.
+        </div>
+
+        <div id="sectionHeader" class="experience"> Experience       
+            <div id="sectionListHeader">Co-Op Student | Oglethorpe Power Corporation | January 2021 - December 2021         
+                <div id="sectionListText" class="exp">
+                    <li>Database management</li>
+                    <li>Communication and project planning</li>
+                    <li>Development in Java, Python, and C#</li>
+                    <li>Data manipulation and analysis in Excel and SQL</li>
+                    <li>Web development (HTML, CSS, JavaScript)</li>
+                    <li>Project requirements communication and development lifecycle</li>
+                    <li>Corporate setting presentations for future plans and project details</li>
+                </div>
+            </div>
+
+            <div id="sectionListHeader">Camp Counselor | WinShape Camps | May 2023 - Jul 2024
+                <div id="sectionListText" >
+                    <li>Leadership and conflict management</li>
+                    <li>Strengthened work ethic through long shifts and dedicated social work</li>
+                    <li>Communication and teaching</li>
+                    <li>Facilitated group problem-solving discussions</li>
+                    <li>Work with large teams</li>
+                    <li>Effective communication</li>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="sectionHeader" class="skills">
+        <link rel="stylesheet" href="css/reviews.css"/>
+ Skills 
+            <div id="sectionListText">
+                <li>Languages: Java, Python, C++, C#, Go, HTML, JavaScript, SQL, CSS</li>
+                <li>Source and Version Control: Git, Github</li>
+                <li>Neovim</li>
+                <li>Advanced Excel</li>
+                <li>Software Development Life Cycle</li>
+                <li>Strong problem solving</li>
+                <li>Software Documentation Control, Testing and Validation</li>
+
+            </div>
+        </div>
+
+
+    </body>
+
+    <script src="javascript/imgTrack.js" ></script> 
+    <script src="javascript/app.js" defer ></script> 
+    <script src="javascript/textScramble.js" defer ></script> 
+
+</html>
